@@ -16,16 +16,16 @@ This Tampermonkey script enhances the SoftUni.bg video streams by introducing a 
 
 ## Usage
 
-Simply install the Tampermonkey script and enjoy an improved SoftUni.bg video streaming experience. The floating button makes it easy to switch between an expanded video view and a compact layout with course information.
+1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension if you haven't already.
+   
+2. Click [here](https://raw.githubusercontent.com/dimitar-grigorov/tampermonkey-softuni-theater-mode/main/softuni-theater-mode.js) to view the raw script file.
 
-## Installation
+3. Once on the raw script page, Tampermonkey should detect the script and prompt you to install it. Click the "Install" button in the Tampermonkey interface.
 
-1. Install the [Tampermonkey](https://www.tampermonkey.net/) browser extension.
-2. Click [here](<SCRIPT_RAW_URL>) to install the SoftUni Theater Mode script.
+4. Refresh or open a new SoftUni.bg video stream page to see the floating button in action.
 
 ## Author
 
-Dimitar Grigorov
+[Your Name]
 
 Feel free to contribute or report issues!
-
