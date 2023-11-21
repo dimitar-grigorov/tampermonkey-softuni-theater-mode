@@ -14,7 +14,9 @@ This Tampermonkey script enhances the SoftUni.bg video streams by introducing a 
 
 5. **Mouse Interaction:** The button's visibility and position dynamically respond to mouse movements, optimizing the user experience.
 
-![Button Behavior](https://raw.githubusercontent.com/dimitar-grigorov/tampermonkey-softuni-theater-mode/main/assets/demonstration.gif)
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/dimitar-grigorov/tampermonkey-softuni-theater-mode/main/assets/demonstration.gif" alt="Button Behavior">
+</div>
 
 ## Usage
 
