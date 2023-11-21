@@ -24,7 +24,7 @@ This Tampermonkey script enhances the SoftUni.bg video streams by introducing a 
 
 2. Click the Tampermonkey icon in your browser and select "Create a new script".
 
-3. Copy the contents of the [softuni-theater-mode.js](https://raw.githubusercontent.com/dimitar-grigorov/tampermonkey-softuni-theater-mode/main/softuni-theater-mode.js) file and paste them into the newly created script.
+3. Copy the contents of the [softuni-theater-mode.js](https://raw.githubusercontent.com/dimitar-grigorov/tampermonkey-softuni-theater-mode/main/softuni-theater-mode.js) file and replace the contents of the newly created script.
 
 4. Press `Ctrl + S` to save the script.
 
