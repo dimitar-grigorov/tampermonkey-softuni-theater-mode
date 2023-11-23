@@ -14,6 +14,8 @@
   const streamContainer = document.querySelector("div.stream-container");
   if (streamContainer) {
     createFloatingButton(streamContainer);
+    // Quick and dirty way to set custom playback speeds
+    setCustomPlayBackSpeeds();
   } else {
     console.error("Stream container not found");
     return;
@@ -103,6 +105,25 @@
     // Add an event listener for click on the button
     btnTheaterMode.addEventListener("click", () =>
       toggleTheaterMode(spanGlyph)
+    );
+  }
+
+  function setCustomPlayBackSpeeds() {
+    let players = videojs.getPlayers();
+    if (!players) {
+      console.error("No video players found");
+      return;
+    }
+    // Define the custom playback speeds
+    let newPlaybackRates = [
+      0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9,
+      2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3,
+    ];
+    // Set the custom playback speeds, by replacing the default ones
+    players.video.options_.playbackRates.splice(
+      0,
+      newPlaybackRates.length,
+      ...newPlaybackRates
     );
   }
 })();
