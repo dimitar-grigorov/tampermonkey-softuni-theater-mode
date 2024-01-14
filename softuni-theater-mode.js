@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Softuni Theater Mode Button
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Customizes Softuni.bg layout with a floating button for toggling theater mode on the video stream pages.
 // @author       Dimitar Grigorov
 // @match        https://softuni.bg/trainings/resources/video/*
